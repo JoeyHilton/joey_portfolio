@@ -15,6 +15,7 @@ end
 gem 'bootstrap-sass'
 gem 'pg'
 gem 'puma'
+gem 'font-awesome-rails'
 group :development do
   gem 'better_errors'
   gem 'foreman'
