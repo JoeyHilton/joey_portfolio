@@ -168,7 +168,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #0071bb;
-    background: url(image-path('honeycomb.png')) no-repeat bottom center scroll;
+    background: image-url('honeycomb.png') no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -290,7 +290,7 @@ a:focus {
     margin-top: 0px;
     text-align: center;
     color: #fff;
-    background: url(image-path('mac.jpg')) no-repeat center center scroll;
+    background: image-url('mac.jpg') no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
