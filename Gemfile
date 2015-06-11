@@ -8,25 +8,23 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
-group :development, :test do
-  gem 'byebug'
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
-end
 gem 'bootstrap-sass'
 gem 'pg'
 gem 'puma'
 gem 'font-awesome-rails'
+group :development, :test do
+  gem 'byebug'
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
+  gem 'pry-rails'
+  gem 'pry-rescue'
+end
 group :development do
   gem 'better_errors'
   gem 'foreman'
   gem 'hub', :require=>nil
   gem 'quiet_assets'
   gem 'rails_layout'
-end
-group :development, :test do
-  gem 'pry-rails'
-  gem 'pry-rescue'
 end
 group :production do
   gem 'rails_12factor'
